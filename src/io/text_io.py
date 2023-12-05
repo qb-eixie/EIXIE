@@ -3,7 +3,7 @@ import os
 text_input = ''
 while(True):
     text_input = input("> ")
-    if(text_input == "exit"): 
+    if(text_input == "bye"): 
         print("EIXIE: Bye.")
         break
     if(text_input == "."):
@@ -12,6 +12,7 @@ while(True):
             print("EIXIE: Output from system:")
             _ = os.system(text_input)
         else:
+            text_input = input()
             print("EIXIE: Output from system:")
             _ = os.system(text_input)
 
