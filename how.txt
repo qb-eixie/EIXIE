@@ -1,2 +1,0 @@
-- EIXIE has various actuators shuch as: console IO, screen watcher & actor, binaries.
- 
